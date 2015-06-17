@@ -1,7 +1,7 @@
 ---
 layout: page
-coursetitle: The Course
-title: Lesson Title
+coursetitle: Introduction to C Programming
+title: Basic Program Structure
 subtitle: Topic Title One
 minutes: 10
 ---

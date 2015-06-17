@@ -1,7 +1,7 @@
 ---
 layout: page
-coursetitle: The Course
-title: Lesson Title
+coursetitle: Introduction to C Programming
+title: Using Libraries
 subtitle: Topic Title One
 minutes: 10
 ---

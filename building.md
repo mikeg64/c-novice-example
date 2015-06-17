@@ -1,8 +1,8 @@
 ---
 layout: page
-coursetitle: The Course
-title: Lesson Title
-subtitle: Topic Title One
+coursetitle: Introduction to C Programming
+title: Building Bigger Programs
+subtitle: The Make Utility
 minutes: 10
 ---
 > ## Learning Objectives {.objectives}

@@ -1,8 +1,8 @@
 ---
 layout: page
-coursetitle: The Course
-title: Lesson Title
-subtitle: Topic Title One
+coursetitle: Introduction to C Programming
+title: Understanding Pointers
+subtitle: Computer Memory and Addresses
 minutes: 10
 ---
 > ## Learning Objectives {.objectives}

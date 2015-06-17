@@ -46,7 +46,10 @@ To do all that, we'll have to learn a little bit about programming.
 >
 > Learners need to understand the concepts of files and directories
 > (including the working directory) and how to start a shell.
-> This lesson references Gnu gcc compiler.
+> This lesson references Gnu gcc compiler provided with the MinGW shell application.
+> You will need an understanding of basic shell commands you can use the 
+> [cheatsheet](http://rcg.group.shef.ac.uk/courses/linux/shell-cheatsheet.html) provided
+> for our course on linux
 
 
 > ## Getting ready {.getready}
@@ -54,8 +57,8 @@ To do all that, we'll have to learn a little bit about programming.
 > You need to download some files to follow this lesson:
 >
 > 1. Make a new folder in your Desktop called `cintro`.
-> 2. Download [introc.exe](introc.exe) and move the file to this folder.
-> 3. If it's not unzipped yet, double-click on it to unzip it. You should end up with a new folder called `data`.
+> 2. Download [introc.exe](http://wrgrid.group.shef.ac.uk/downloads/courses/c_cic6006/introc.exe) and move the file to this folder.
+> 3. If it's not unzipped yet, double-click on it to unzip it. You should end up with a new folder called `introtoc`.
 > 4. You can access this folder from the Unix shell with:
 >
 > ~~~ {.input}
