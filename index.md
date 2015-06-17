@@ -64,8 +64,15 @@ To do all that, we'll have to learn a little bit about programming.
 
 ## Topics
 
-1.  [Topic Title One](01-one.html)
-2.  [Topic Title Two](02-two.html)
+1.  [Introducing C: Analyzing Patient Data](introduction.html)
+2.  [Functions](functions.html)
+3.  [Pointers](pointers.html)
+4.  [Using Libraries](libraries.html)
+5.  [Building Bigger Programs](building.html)
+6.  [Defensive Programming](defensive.html)
+7.  [Debugging](debugging.html)
+8.  [Topic Title One](01-one.html)
+9.  [Topic Title Two](02-two.html)
 
 ## Other Resources
  
