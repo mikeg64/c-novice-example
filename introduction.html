@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="generator" content="pandoc">
-    <meta name="description" content="Introduction">
+    <meta name="description" content="Lesson Title">
 
-    <title>Introduction to C Programming</title>
+    <title>The Course</title>
     
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -68,7 +68,7 @@
 	<td id="headerRight">
 	        <!-- page heading  -->
 		  <div id="headerTitle">
-		<h1 id="pageTitle">Introduction to C Programming</h1>
+		<h1 id="pageTitle">The Course</h1>
 		  </div>
 		  <!-- // page heading -->
     </td>
@@ -80,67 +80,48 @@
       <article>
       <div class="row">
         <div class="col-md-10 col-md-offset-1">
-                    <h1 class="title">Introduction</h1>
-          <p>The best way to learn how to program is to do something useful, so this introduction to C is built around a common scientific task: data analysis.</p>
-<p>Our real goal isn’t to teach you C, but to teach you the basic concepts that all programming depends on. We use C in our lessons because:</p>
-<ol style="list-style-type: decimal">
-<li>we have to use <em>something</em> for examples;</li>
-<li>it’s free, well-documented, and runs almost everywhere;</li>
-</ol>
-<p>But the two most important things are to use whatever language your colleagues are using, so that you can share your work with them easily, and to use that language <em>well</em>.</p>
-<p>We are studying inflammation in patients who have been given a new treatment for arthritis, and need to analyze the first dozen data sets of their daily inflammation. The data sets are stored in <a href="reference.html#comma-separated-values">comma-separated values</a> (CSV) format: each row holds information for a single patient, and the columns represent successive days. The first few rows of our first file look like this:</p>
-<pre><code>0,0,1,3,1,2,4,7,8,3,3,3,10,5,7,4,7,7,12,18,6,13,11,11,7,7,4,6,8,8,4,4,5,7,3,4,2,3,0,0
-0,1,2,1,2,1,3,2,2,6,10,11,5,9,4,4,7,16,8,6,18,4,12,5,12,7,11,5,11,3,3,5,4,4,5,5,1,1,0,1
-0,1,1,3,3,2,6,2,5,9,5,7,4,5,4,15,5,11,9,10,19,14,12,17,7,12,11,7,4,2,10,5,4,2,2,3,2,2,1,1
-0,0,2,0,4,2,2,1,6,7,10,7,9,13,8,8,15,10,10,7,17,4,4,7,6,15,6,4,9,11,3,5,6,3,3,4,2,3,2,1
-0,1,1,3,3,1,3,5,2,4,4,7,6,5,3,10,8,10,6,17,9,14,9,7,13,9,12,6,7,7,9,6,3,2,2,4,2,0,1,1</code></pre>
-<p>We want to:</p>
-<ul>
-<li>load that data into memory,</li>
-<li>calculate the average inflammation per day across all patients, and</li>
-<li>plot the result.</li>
-</ul>
-<p>To do all that, we’ll have to learn a little bit about programming.</p>
-<section class="prereq panel panel-warning">
+                    <a href="index.html"><h1 class="title">Lesson Title</h1></a>
+          <h2 class="subtitle">Topic Title One</h2>
+          <section class="objectives panel panel-warning">
 <div class="panel-heading">
-<h2 id="prerequisites"><span class="glyphicon glyphicon-education"></span>Prerequisites</h2>
+<h2 id="learning-objectives"><span class="glyphicon glyphicon-certificate"></span>Learning Objectives</h2>
 </div>
 <div class="panel-body">
-<p>Learners need to understand the concepts of files and directories (including the working directory) and how to start a shell. This lesson references Gnu gcc compiler.</p>
+<ul>
+<li>Learning objective 1 basic c programming</li>
+<li>Learning objective 2</li>
+</ul>
 </div>
 </section>
-<section class="getready panel panel-warning">
+<p>Paragraphs of text — possibly including <a href="reference.html#key-word-1">key word 1</a> — mixed with:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">some code:
+    to be displayed</code></pre></div>
+<pre class="output"><code>output
+from
+program</code></pre>
+<pre class="error"><code>error reports from program (if any)</code></pre>
+<p>and possibly including:</p>
+<aside class="callout panel panel-info">
 <div class="panel-heading">
-<h2 id="getting-ready"><span class="glyphicon glyphicon-check"></span>Getting ready</h2>
+<h2 id="callout-box"><span class="glyphicon glyphicon-pushpin"></span>Callout Box</h2>
 </div>
 <div class="panel-body">
-<p>You need to download some files to follow this lesson:</p>
-<ol style="list-style-type: decimal">
-<li>Make a new folder in your Desktop called <code>cintro</code>.</li>
-<li>Download <a href="introc.exe" class="uri">introc.exe</a> and move the file to this folder.</li>
-<li>If it’s not unzipped yet, double-click on it to unzip it. You should end up with a new folder called <code>data</code>.</li>
-<li>You can access this folder from the Unix shell with:</li>
-</ol>
-<pre class="input"><code>$ cd &amp;&amp; cd Desktop/introc/</code></pre>
+<p>An aside of some kind.</p>
+</div>
+</aside>
+<p>or an image from the <code>figs</code> directory:</p>
+<div class="figure">
+<img src="fig/example.svg" title="this is the image&#39;s alt text" alt="this is the image’s title" />
+<p class="caption">this is the image’s title</p>
+</div>
+<section class="challenge panel panel-success">
+<div class="panel-heading">
+<h2 id="challenge-title"><span class="glyphicon glyphicon-pencil"></span>Challenge Title</h2>
+</div>
+<div class="panel-body">
+<p>Description of a single challenge. There may be several challenges.</p>
 </div>
 </section>
-<h2 id="topics">Topics</h2>
-<ol style="list-style-type: decimal">
-<li><a href="introduction.html">Introducing C: Analyzing Patient Data</a></li>
-<li><a href="functions.html">Functions</a></li>
-<li><a href="pointers.html">Pointers</a></li>
-<li><a href="libraries.html">Using Libraries</a></li>
-<li><a href="building.html">Building Bigger Programs</a></li>
-<li><a href="defensive.html">Defensive Programming</a></li>
-<li><a href="debugging.html">Debugging</a></li>
-<li><a href="01-one.html">Topic Title One</a></li>
-<li><a href="02-two.html">Topic Title Two</a></li>
-</ol>
-<h2 id="other-resources">Other Resources</h2>
-<ul>
-<li><a href="reference.html">Reference</a></li>
-<li><a href="discussion.html">Discussion</a></li>
-</ul>
         </div>
       </div>
       </article>
